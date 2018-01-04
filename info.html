@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<!--
+ * Copyright (c) 2010 The Chromium Authors. All rights reserved.  Use of this
+ * source code is governed by a BSD-style license that can be found in the
+ * LICENSE file.
+-->
+<html>
+  <head>
+    <link href="info.css" rel="stylesheet" type="text/css"></link>
+    <script src="facebooksdk.js"></script>
+    <script src="info.js"></script>
+  </head>
+  <body>
+    <div id="output">
+
+      <div id="info">
+        <h1>Pages information</h1>
+      </div>
+
+      <div>
+        <label for="access_token">Set/Update access token</label> <span id="tokenResponse"></span> <br>
+        <input type="text" id="access_token" > <br>
+        All ids <span id="allIds"></span>
+      </div>
+
+      <table>
+        <thead>
+          <tr>
+            <th>Url</th>
+            <th>Id</th>
+            <th>Rodar retroativo de pms</th>
+          </tr>
+        </thead>
+        <tbody id="tbody">
+
+        </tbody>
+      </table>
+    </div>
+  </body>
+</html>

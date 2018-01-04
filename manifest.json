@@ -1,0 +1,19 @@
+{
+  "name" : "Facebook Page id resolver - BuzzMonitor",
+  "version" : "1.0.2",
+  "description" : "Get facebook page ids in selection",
+  "background" : { "scripts": ["background.js"] },
+  "permissions" : [
+    "contextMenus",
+    "tabs",
+    "http://*/*",
+    "https://*/*"
+   ],
+  "minimum_chrome_version" : "6.0.0.0",
+  "icons" : {
+    "16" : "buzzmonitor_page_ids_resolver-16.png",
+    "48" : "buzzmonitor_page_ids_resolver-48.png",
+    "128" : "buzzmonitor_page_ids_resolver-128.png"
+  },
+  "manifest_version": 2
+}
